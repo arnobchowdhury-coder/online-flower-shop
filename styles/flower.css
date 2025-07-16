@@ -1,0 +1,65 @@
+*{
+  margin:0;
+  max-width:1920px;
+  padding:0;
+  box-sizing:border-box;
+}
+.lato {
+  font-family: "Lato", sans-serif;
+  font-weight:300px;
+  font-style: normal;
+}
+.button{
+  background-color:rgb(229, 84, 115);
+  border-radius:8px;
+  border: none;
+  font-size:20px;
+  color:rgb(255, 255, 255) ;
+  padding:20px 43px 20px 43px;
+}
+/* header section start */
+.flower{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  background-color:rgba(229, 84, 115, 0.1) ;
+  background-size: contain;
+  gap:97px;
+}
+.beautiful{
+  width:788px;
+  height:288px;
+  margin-left:200px;
+  margin-bottom:21px;
+}
+.size{
+  font-size:18px;
+  font-weight:480;
+  line-height:30px;
+  text-align:left;
+  margin-bottom:32px;
+  color: rgba(39, 39, 39, 0.6);
+}
+div img{
+  height:500px;
+  margin-right:150px;
+  gap:97px;
+  font-weight:40px;
+  margin-top:50px;
+}
+.part{
+  margin-bottom:32px;
+  font-size:50px;
+  font-weight: 800;
+  letter-spacing:0;
+  align-items: left;
+}
+
+
+
+
+
+
+
+
+
