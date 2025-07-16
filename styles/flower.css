@@ -18,12 +18,14 @@
   padding:20px 43px 20px 43px;
 }
 /* header section start */
+.container{
+  background-color:rgba(229, 84, 115, 0.1) ;
+  background-size: cover;
+}
 .flower{
   display: flex;
   justify-content:space-between;
   align-items:center;
-  background-color:rgba(229, 84, 115, 0.1) ;
-  background-size: contain;
   gap:97px;
 }
 .beautiful{
@@ -53,6 +55,18 @@ div img{
   font-weight: 800;
   letter-spacing:0;
   align-items: left;
+}
+
+@media screen and (max-width:576px) {
+  .flower{
+    flex-direction: column;
+  }
+  .size{
+     align-items: center;
+  }
+  .container{
+    background-repeat: repeat;
+  }
 }
 
 
