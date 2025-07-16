@@ -21,6 +21,7 @@
 .container{
   background-color:rgba(229, 84, 115, 0.1) ;
   background-size: cover;
+  width: 100%;
 }
 .flower{
   display: flex;
@@ -58,18 +59,25 @@ div img{
 }
 
 @media screen and (max-width:576px) {
-  .flower{
+  .flower {
     flex-direction: column;
+    align-items: center; 
+    text-align: center;  
   }
-  .size{
-     align-items: center;
+
+  .beautiful {
+    width: 100%;
+    height: auto;
+    margin: 0; 
+    padding: 0 20px;
   }
-  .container{
-    background-repeat: repeat;
+
+  div img {
+    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
   }
 }
-
-
 
 
 
