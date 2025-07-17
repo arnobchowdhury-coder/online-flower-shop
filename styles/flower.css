@@ -200,6 +200,16 @@ div img{
   justify-items: center;
   padding-bottom: 24px;
 }
+.item-1{
+  display: flex;
+  justify-items: space-between;
+  align-items: center;
+
+}
+.item-1 > img{
+  width: 350px;
+  height: 280px;
+}
 
 
 @media screen and (max-width:576px) {
