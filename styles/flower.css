@@ -7,6 +7,14 @@
 .display-flex{
   display: flex;
 }
+/* dark-02 */
+.text-light{
+  color: rgba(39, 39, 39, 0.6);
+}
+/* dark-01 */
+.text-light-gray{
+  color: rgb(229, 84, 115);
+}
 .lato {
   font-family: "Lato", sans-serif;
   font-weight:300px;
@@ -137,12 +145,43 @@ div img{
 }
 .card-container{
   display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(229, 84, 115, 0.05);
+  border-radius: 8px;
   margin-top: 128px;
+  padding-left: 350px;
+  gap: 215px;
+  margin-bottom: 128px;
+}
+.deal{
+  font-size: 30px;
+  font-weight: 800;
+   padding-bottom: 24px;
+   text-align: center;
+}
+.img-4 > img{
+  width: 318px;
+  height: 420px;
+  margin-bottom: 100px;
+}
+.long{
+  padding-bottom: 32px;
+  text-align: center;
+}
+.button-1{
+  background-color:rgb(229, 84, 115);
+  border-radius:8px;
+  border: none;
+  font-size:20px;
+  color:rgb(255, 255, 255) ;
+  padding:20px 43px 20px 43px;
+  margin-left: 200px;
 }
 
 
 @media screen and (max-width:576px) {
-  .flower , .feature , .content {
+  .flower , .feature , .content  {
     flex-direction: column;
     align-items: center; 
     text-align: center;  
@@ -160,8 +199,16 @@ div img{
     height: auto;
     max-width: 100%;
   }
- .img-1 , .img-2 , .img-3{
+ .img-1 , .img-2 , .img-3 {
   margin: auto;
+ }
+
+ .card-container{
+    flex-direction: column;
+    padding: 0;
+ }
+ .button-1{
+  margin-left: 150px;
  }
 
 
