@@ -178,6 +178,15 @@ div img{
   padding:20px 43px 20px 43px;
   margin-left: 200px;
 }
+.button-2{
+  background-color:rgb(229, 84, 115);
+  border-radius:8px;
+  border: none;
+  font-size:20px;
+  color:rgb(255, 255, 255) ;
+  padding:20px 43px 20px 43px;
+  gap: 20px;
+}
 
 .banner{
   display: grid;
@@ -215,7 +224,8 @@ div img{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("../Flower Asset/Rectangle 9.png");
+  border-radius: 8px;
+  background-image:url("../Flower Asset/Rectangle 9.png");
   width: 1440px;
   height: 449px;
   margin:0 auto;
@@ -226,6 +236,7 @@ div img{
   font-weight: 800;
   padding-bottom: 16px;
   text-align: center;
+  color: rgb(39, 39, 39);
 }
 .coupon{
   text-align: center;
@@ -240,10 +251,32 @@ input[type="email"]{
   padding-left: 22px;
   gap: 20px;
 }
+.footer{
+  text-align: center;
+  background: rgb(17, 16, 16);
+  color: rgb(255, 255, 255);
+  width: 1600px;
+  height: 300px;
+}
+.shop{
+  padding-top: 70px;
+  font-size: 48px;
+  font-weight: 800;
+}
+.reader{
+  padding-top: 24px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.right{
+ padding-top: 32px; 
+ color: rgba(255, 255, 255, 0.4);
+ font-size: 16px;
+}
 
 
 @media screen and (max-width:576px) {
-  .flower , .feature , .content  {
+  .flower , .feature , .content {
     flex-direction: column;
     align-items: center; 
     text-align: center;  
@@ -286,7 +319,27 @@ input[type="email"]{
   flex-direction: column;
   gap: 20px;
 }
+.late{
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.coupon{
+  text-align: center;
+}
+.get{
+  text-align: center;
 
+}
+input[type="email"]{
+  width: 100%;
+  height: 50%;
+}
+.button-2{
+  margin-top: 10px;
+  justify-content: center;
+  padding:10px 10px;
+}
 
 
 body , html{
