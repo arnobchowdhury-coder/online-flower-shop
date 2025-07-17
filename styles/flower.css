@@ -340,7 +340,10 @@ input[type="email"]{
   justify-content: center;
   padding:10px 10px;
 }
-
+.footer{
+  text-align: start;
+  padding-left: 5px;
+}
 
 body , html{
   max-width: 400px;
