@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  max-width:1920px;
+  /* max-width:1920px; */
   box-sizing:border-box;
 }
 .display-flex{
@@ -191,7 +191,7 @@ div img{
     width: 100%;
     height: auto;
     margin: 0; 
-    padding: 0 20px;
+    /* padding: 0 20px; */
   }
 
   div img  {
@@ -199,19 +199,26 @@ div img{
     height: auto;
     max-width: 100%;
   }
- .img-1 , .img-2 , .img-3 {
-  margin: auto;
+ .img-1 , .img-2 , .img-3 , .img-4{
+  margin: 0px;
+  width: 200px;
  }
-
+.container{
+  margin: 0 auto;
+}
  .card-container{
     flex-direction: column;
     padding: 0;
  }
  .button-1{
-  margin-left: 150px;
+  margin-left: 10px;
  }
 
-
+body , html{
+  max-width: 400px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
 
 
 }
