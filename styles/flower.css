@@ -179,6 +179,28 @@ div img{
   margin-left: 200px;
 }
 
+.banner{
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr) ;
+  background-color: rgba(39, 39, 39, 0.05);
+  width: 1440px;
+  height: 320px;
+  margin: auto;
+  margin-top: 128px;
+  gap: 30px;
+}
+.banner-card > img{
+    width: 88px;
+    height: 88px;
+}
+.banner-container{
+  font-size: 24px;
+  font-weight: 600;
+  color: #272727CC;
+  justify-items: center;
+  padding-bottom: 24px;
+}
+
 
 @media screen and (max-width:576px) {
   .flower , .feature , .content  {
@@ -201,7 +223,7 @@ div img{
   }
  .img-1 , .img-2 , .img-3 , .img-4{
   margin: 0px;
-  width: 200px;
+  width: 250px;
  }
 .container{
   margin: 0 auto;
@@ -213,12 +235,18 @@ div img{
  .button-1{
   margin-left: 10px;
  }
-
+ .banner{
+  grid-template-columns: repeat(1 , 1fr);
+  margin-left: 0;
+  width: 100%;
+  height: 100%;
+ }
 body , html{
   max-width: 400px;
   margin: 0 auto;
   overflow-x: hidden;
 }
+
 
 
 }
