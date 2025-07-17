@@ -135,6 +135,10 @@ div img{
   font-weight: 700;
   color: rgb(39, 39, 39);
 }
+.card-container{
+  display:flex;
+  margin-top: 128px;
+}
 
 
 @media screen and (max-width:576px) {
