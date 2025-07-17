@@ -184,7 +184,7 @@ div img{
   grid-template-columns: repeat(3 , 1fr) ;
   background-color: rgba(39, 39, 39, 0.05);
   width: 1440px;
-  height: 320px;
+  height: 250px;
   margin: auto;
   margin-top: 128px;
   gap: 30px;
